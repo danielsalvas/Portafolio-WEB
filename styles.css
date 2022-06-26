@@ -363,6 +363,8 @@ footer {
 .eins-modal-preview img{
     width: 300px;
     height: 150px;
+    margin-bottom: 35px;
+    border-radius: 10px;
 }
 
 .pw-content{
