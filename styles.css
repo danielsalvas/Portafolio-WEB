@@ -218,7 +218,6 @@ span{
 .briefcase-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(270px, auto));
-    gap: 20px;
     width: 70%;
     margin: 0 auto;
 }
@@ -231,6 +230,26 @@ span{
 }
 .briefcase-grid img:hover{
     transform: scale(1.1);
+}
+
+.proyecto h3{
+    background-color: var(--dark2);
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100px;
+    opacity: 0;
+    transform: translate(0px, -100px);
+    transition: transform 0.4s ease;
+    color: white;
+    position: relative;
+    left: 90px;
+    top: -105px;
+}
+
+.proyecto div:hover h3{
+    opacity: 1;
+    transform: translate(0px, -130px);
 }
 
 /* Skills and Tools */
